@@ -41,7 +41,7 @@ const Navigation = () => {
                   "!font-bold !text-white": router.basename === item.route,
                 })}
               >
-                {item.name}
+                <a href={item.route}>{item.name}</a>
               </li>
             ))}
           </ul>

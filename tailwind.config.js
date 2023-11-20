@@ -7,6 +7,9 @@ export default {
         dark: {
           100: "#1B1B1B",
         },
+        primary: {
+          100: "#F55279",
+        },
       },
     },
   },

@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans";
+  /* to avoid unnecessary margin and padding on default tag */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
