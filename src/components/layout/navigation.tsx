@@ -29,7 +29,7 @@ const NAVIGATION_LINK = [
 const Navigation = () => {
   console.log(router);
   return (
-    <nav className="bg-dark-100">
+    <nav className="bg-dark-100 fixed w-full">
       <div className="max-w-[1440px] mx-auto flex justify-between items-center px-20 w-full max-h-[100px] h-[100px]">
         {/* left side */}
         <div className="flex gap-[114px] items-center">
